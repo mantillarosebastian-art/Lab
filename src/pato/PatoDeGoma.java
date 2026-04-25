@@ -4,7 +4,7 @@ package pato;
 public class PatoDeGoma extends Pat implements Cuakeable {
 
     public void mostrar() {
-        System.out.println("Yo soy un Patito de goma wrgethe");
+        System.out.println("Yo soy un Patito de goma");
     }
 
     public void cuackear() {

@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package pato;
 
-/**
- *
- * @author sistemas
- */
-public class cuaqueo {
-    
+  public class cuaqueo implements Cuakeable {
+    public void cuackear() {
+        System.out.println("Soy Un verdadero pato por eso hago CUAC CUAC");
+    }
 }

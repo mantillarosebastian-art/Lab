@@ -7,12 +7,12 @@ public class Pato {
         PatoReal pato1 = new PatoReal();
         pato1.mostrar();
         pato1.cuackear();
-        ((PatoReal)pato1).volar();
+        pato1.volar();
         pato1.nadar();
 
-        Pat pato2 = new PatoDeGoma();
+        PatoDeGoma pato2 = new PatoDeGoma();
         pato2.mostrar();
-        ((PatoDeGoma)pato2).cuackear();
+        pato2.cuackear();
         System.out.println("INCAPAZ DE VOLAR");
         pato2.nadar();
 
@@ -22,10 +22,10 @@ public class Pato {
         System.out.println("INCAPAZ DE VOLAR");
         pato3.nadar();
         
-        Pat pato4 = new PatoCabezaRoja();
+       PatoCabezaRoja pato4 = new PatoCabezaRoja();
         pato4.mostrar();
-        ((PatoCabezaRoja)pato4).cuackear();
-        ((PatoCabezaRoja)pato4).volar();
+        pato4.cuackear();
+        pato4.volar();
         pato4.nadar();
     }
 }

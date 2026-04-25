@@ -3,11 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package pato;
-
-/**
- *
- * @author sistemas
- */
-public class Chirreo {
-    
+public class Chirreo implements Cuakeable {
+    @Override
+    public void cuackear() {
+        System.out.println("CHIRR CHIRR");
+    }
 }
