@@ -8,6 +8,17 @@ package practica04;
  *
  * @author sistemas
  */
-public class SuperDrone {
+public class SuperDrone implements Drone {
+    
+    @Override
+    public void beep() {
+        System.out.println("Beep Beep");
+    }
+    public void GirarRotor(){
+        System.out.println("Rotor girando ");
+    }
+    public void Despegar () {
+        System.out.println("Dron Despegando ");
+    }
     
 }

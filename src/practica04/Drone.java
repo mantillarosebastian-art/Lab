@@ -8,6 +8,11 @@ package practica04;
  *
  * @author sistemas
  */
-public class Drone {
-    
+public interface Drone {
+    void beep();
+    void girarRotor ();
+    void despegar();    
+           
+           
 }
+
