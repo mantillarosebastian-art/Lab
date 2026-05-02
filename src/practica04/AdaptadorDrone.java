@@ -10,7 +10,7 @@ package practica04;
  */
 public class AdaptadorDrone implements Pato{
     private final Drone drone;
-    public AdaptadorDronee (Drone drone){
+    public AdaptadorDrone (Drone drone){
         this.drone = drone;
     }
     @Override
@@ -18,6 +18,7 @@ public class AdaptadorDrone implements Pato{
         drone.beep();
         
     }
+    @Override
     public void volar(){
         drone.girarRotor();
         drone.despegar();

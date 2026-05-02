@@ -14,10 +14,12 @@ public class SuperDrone implements Drone {
     public void beep() {
         System.out.println("Beep Beep");
     }
-    public void GirarRotor(){
+    @Override
+    public void girarRotor(){
         System.out.println("Rotor girando ");
     }
-    public void Despegar () {
+    @Override
+    public void despegar () {
         System.out.println("Dron Despegando ");
     }
     

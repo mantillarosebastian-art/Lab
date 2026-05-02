@@ -10,9 +10,16 @@ public class Practica04 {
 
         Pato pato = new PatoReal();
         Pavo Pavo = new PavoSilvestre();
+        Drone drone = new SuperDrone();
 
         Pato adaptadorPavo = new AdaptadorPavo(Pavo);
+        Pato DroneAdaptado = new AdaptadorDrone(drone);
+        
+        System.out.println("El Drone adaptado hace...");
+        DroneAdaptado.cuackear();
+        DroneAdaptado.volar();
 
+        
         System.out.println("El pavo hace...");
         Pavo.gluglutear();
         Pavo.volar();
